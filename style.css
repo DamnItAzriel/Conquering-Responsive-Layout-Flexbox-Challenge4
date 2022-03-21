@@ -128,3 +128,24 @@ i:hover {
 a {
     text-decoration: none;
 }
+
+@media (max-width:800px) {
+    h1{
+        font-size: 36px;
+    }
+    .row{
+        display: block;
+    }
+    .text, img{
+        width: 100%;
+    }
+    .text + .text {
+        margin-top: 75px;
+    }
+    img + .text{
+        margin-top: 75px;
+    }
+    .text+ img{
+        margin-top: 75px;
+    }
+}
